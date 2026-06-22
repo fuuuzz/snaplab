@@ -89,10 +89,10 @@ Pour faire fonctionner l'imprimante avec le Raspberry Pi, nous allons utiliser u
 > CUPS — le Common Unix Printing System — est un système open source de gestion et de planification d'impression. L'un des aspects intéressants de CUPS est son système de filtres, capable de convertir les données d'un travail d'impression d'un format à un autre.
 
 1. Désactiver les `serial-ports` et validez. Le Raspberry Pi va redémarrer pour effectuer les changements.
-   -> photo
+   ![](./documentation/photos/printer_setup/serial_ports.JPG)
 
 2. Mettre l'imprimante sous tension et la brancher au Raspberry Pi
-   -> photo
+   ![](./documentation/photos/printer_setup/plug.JPG)
 
 3. Tester si l'imprimante est bien reconnue avec la commande suivante
 
@@ -113,7 +113,7 @@ Pour faire fonctionner l'imprimante avec le Raspberry Pi, nous allons utiliser u
     echo -e "Hello la communauté !" > /dev/usb/lp0
    ```
 
-   -> Video GIF
+   ![](./documentation/photos/printer_setup/print_text.gif)
 
 5. Installation des packages nécessaires à l'utilisation de l'imprimante. Attention, vous devez être connecté à internet pour cette étape. L'installation des packages peut prendre jusqu'à une quinzaine de minute
 
@@ -128,8 +128,6 @@ Pour faire fonctionner l'imprimante avec le Raspberry Pi, nous allons utiliser u
     make
     sudo ./install
    ```
-
-6.
 
 # Comment contribuer
 
