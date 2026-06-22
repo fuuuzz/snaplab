@@ -4,13 +4,11 @@ SnapLab est un photomaton open-source réalisé avec du matériel low-tech à de
 
 Ce projet a pour vocation de donner un socle technique, que ce soit côté logiciel ou matériel, pour ensuite permettre aux personnes qui le souhaitent de mettre en place le photomaton de la façon la plus adaptée à leur lieux.
 
-## Table des matières
-
-1. [Matériel`](#materiel)
+1. [Matériel](#materiel)
 2. Installation logicielle
 3. Comment contribuer
 
-## Matériel
+# Matériel
 
 - [Raspberry Pi](https://www.raspberrypi.com/products/raspberry-pi-3-model-b/)
 - [Minit Imprimante thermique à tickets](https://www.manomano.fr/p/imprimante-thermique-integree-58mm-modele-micro-materiel-abs-support-usbttl-serie-alimentation-5-9v-210876678?from=my_orders)
