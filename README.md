@@ -37,9 +37,12 @@ _Schéma des branchements_
 
 # Configuration logicielle
 
-## Mise en route du Raspberry Pi
+1. [Installation du système d'exploitation](#installation-du-système-d-exploitation)
+2. [Fonctionnement de la caméra](#fonctionnement-de-la-caméra)
+3. [Configuration de l'imprimante](#configuration-de-l-imprimante)
+4. [Lancement du script python](#lancement-du-script-python)
 
-### Installation du système d'exploitation
+### 1. Installation du système d'exploitation
 
 Pour configurer le Raspberry Pi, il faut utiliser [Raspberry Pi Imager](https://www.raspberrypi.com/software/) pour installer le système d'exploitation sur une carte micro SD.
 
