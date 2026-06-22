@@ -5,24 +5,24 @@ SnapLab est un photomaton open-source réalisé avec du matériel low-tech à de
 Ce projet a pour vocation de donner un socle technique, que ce soit côté logiciel ou matériel, pour ensuite permettre aux personnes qui le souhaitent de mettre en place le photomaton de la façon la plus adaptée à leur lieux.
 
 1. [Matériel](#matériel)
-2. [Installation logicielle](#installation-logicielle)
+2. [Configuration logicielle](#configuration-logicielle)
 3. [Comment contribuer](#comment-contribuer)
 
 # Matériel
 
 ### [Raspberry Pi](https://www.raspberrypi.com/products/raspberry-pi-3-model-b/)
 
-![](./documentation/photos/raspberry_pi.JPG)
+![](./documentation/photos/components/raspberry_pi.JPG)
 _Raspberry Pi avec son cable d'alimentation_
 
 ### [Mini imprimante thermique à tickets](https://www.manomano.fr/p/imprimante-thermique-integree-58mm-modele-micro-materiel-abs-support-usbttl-serie-alimentation-5-9v-210876678?from=my_orders)
 
-![](./documentation/photos/printer.JPG)
+![](./documentation/photos/components/printer.JPG)
 _Imprimante thermique avec l'alimentation secteur 5V-9V (en noir), l'adaptateur (en rouge et noir), et le câble de USB de communication entre l'imprimante et le Raspberry_
 
 ### [Caméra](https://www.raspberrypi.com/products/camera-module-v2/)
 
-![](./documentation/photos/camera.JPG)
+![](./documentation/photos/components/camera.JPG)
 _Camera avec sa nappe CSI_
 
 ### [TODO] => Bouton déclencheur
@@ -34,10 +34,32 @@ _Camera avec sa nappe CSI_
 ![](./documentation/schemas/schema.svg)
 _Schéma des branchements_
 
-# Installation logicielle
+# Configuration logicielle
 
 ## Mise en route du Raspberry Pi
 
+### Installation du système d'exploitation
+
 Pour configurer le Raspberry Pi, il faut utiliser [Raspberry Pi Imager](https://www.raspberrypi.com/software/) pour installer le système d'exploitation sur une carte micro SD.
+
+Une fois le [Raspberry Pi Imager](https://www.raspberrypi.com/software/) lancé et la carte micro-sd inserée dans votre ordinateur, lancer la configuration.
+
+1. Selection du modèle du Raspberry Pi
+   ![](./documentation/photos/raspberry_setup/select_device.JPG)
+
+2. Selection du système d'exploitation à installer sur le Raspberry Pi
+   ![](./documentation/photos/raspberry_setup/select_os.JPG)
+
+3. Selection de la carte micro SD qui va être insérée dans le Raspberry Pi
+   ![](./documentation/photos/raspberry_setup/select_card.JPG)
+
+4. Customisation de session, avec le choix du nom d'utilisateur, mot de passe, etc.
+   ![](./documentation/photos/raspberry_setup/credentials.JPG)
+
+5. Création de l'image du système d'exploitation
+   ![](./documentation/photos/raspberry_setup/create_image.JPG)
+   ![](./documentation/photos/raspberry_setup/writing_image.JPG)
+
+6.
 
 # Comment contribuer
