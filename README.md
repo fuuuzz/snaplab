@@ -115,11 +115,11 @@ Pour faire fonctionner l'imprimante avec le Raspberry Pi, nous allons utiliser u
 
    -> Video GIF
 
-5. Installation des packages nécessaires à l'utilisation de l'imprimante
+5. Installation des packages nécessaires à l'utilisation de l'imprimante. Attention, vous devez être connecté à internet pour cette étape. L'installation des packages peut prendre jusqu'à une quinzaine de minute
 
    ```
    sudo apt-get update
-   sudo apt-get install libcups2-dev libcupsimage2-dev git build-essential cups systemconfig-printer
+   sudo apt-get install libcups2-dev libcupsimage2-dev git build-essential cups system-config-printer
    ```
 
    ```
