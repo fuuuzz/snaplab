@@ -18,8 +18,7 @@ Ce projet a pour vocation de donner un socle technique, que ce soit côté logic
 - [TODO] => Bouton déclencheur
 - [TODO] => Led
 
-### Schéma des branchements
-
 ![](./documentation/schemas/schema.svg)
+_Schéma des branchements_
 
 ## Installation logicielle
