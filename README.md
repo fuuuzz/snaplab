@@ -149,7 +149,19 @@ Pour faire fonctionner l'imprimante avec le Raspberry Pi, nous allons utiliser u
 
    ![](./documentation/photos/printer_setup/print_image.gif)
 
+### Lancement du script python
+
+```
+python3 scripts/main.py
+```
+
 # Comment contribuer
+
+1. Forker le repo et cloner en local
+2. Créer une branche
+3. Commiter les changements
+4. Pousser sur le fork (git push origin ma-branche)
+5. Ouvrir une Pull Request sur ce repo, du fork vers main
 
 # Sources
 
