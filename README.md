@@ -64,7 +64,7 @@ Une fois le [Raspberry Pi Imager](https://www.raspberrypi.com/software/) lancé 
    ![](./documentation/photos/raspberry_setup/create_image.JPG)
    ![](./documentation/photos/raspberry_setup/writing_image.JPG)
 
-6. Une fois le processus terminé, éjecter la carte et micro SD, l'insérer dans le Raspberry Pi et mettre le Raspberry Pi sous tension. Lors du premier démarrage, la configuration se finalise, ce qui prend un peu de temps. Vous verrez quelques lignes de commandes s'exécuter, vous n'avez pas laisser faire et faire preuve d'un peu de patience.
+6. Une fois le processus terminé, éjecter la carte et micro SD, l'insérer dans le Raspberry Pi et mettre le Raspberry Pi sous tension. Lors du premier démarrage, la configuration se finalise, ce qui prend un peu de temps. Vous verrez quelques lignes de commandes s'exécuter, vous n'avez qu'à laisser faire et faire preuve d'un peu de patience.
 
 ### 2. Fonctionnement de la caméra
 
