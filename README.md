@@ -84,6 +84,53 @@ _La commande montre la vue de la caméra avant de prendre la photo_
 
 ### Configuration de l'imprimante
 
+Pour faire fonctionner l'imprimante avec le Raspberry Pi, nous allons utiliser un protocole spécifique : le `CUPS`.
+
+> CUPS — le Common Unix Printing System — est un système open source de gestion et de planification d'impression. L'un des aspects intéressants de CUPS est son système de filtres, capable de convertir les données d'un travail d'impression d'un format à un autre.
+
+1. Désactiver les `serial-ports` et validez. Le Raspberry Pi va redémarrer pour effectuer les changements.
+   -> photo
+
+2. Mettre l'imprimante sous tension et la brancher au Raspberry Pi
+   -> photo
+
+3. Tester si l'imprimante est bien reconnue avec la commande suivante
+
+   ```
+     ls -l /dev/usb/lp0
+   ```
+
+   Vous devriez voir quelque chose comme ceci apparaître :
+
+   ```
+   crwxrwxr-x 1 root lp 180, 0 Mar 14 14:11 /dev/usb/lp0
+   ```
+
+4. Tester si l'imprimante fonctionne correctement en imprimant un texte, exécutant les lignes de commande suivante :
+
+   ```
+    chmod 777 /dev/usb/lp0
+    echo -e "Hello la communauté !" > /dev/usb/lp0
+   ```
+
+   -> Video GIF
+
+5. Installation des packages nécessaires à l'utilisation de l'imprimante
+
+   ```
+   sudo apt-get update
+   sudo apt-get install libcups2-dev libcupsimage2-dev git build-essential cups systemconfig-printer
+   ```
+
+   ```
+    git clone https://github.com/adafruit/zj-58
+    cd zj-58
+    make
+    sudo ./install
+   ```
+
+6.
+
 # Comment contribuer
 
 # Sources
