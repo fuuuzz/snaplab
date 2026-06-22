@@ -15,7 +15,7 @@ import termios
 import tty
 
 # --- Configuration ---
-PRINTER_NAME = "SnapLapPrinter"        # Nom de ton imprimante dans CUPS (vérifier avec: lpstat -p)
+PRINTER_NAME = "ZJ-58"        # Nom de ton imprimante dans CUPS (vérifier avec: lpstat -p)
 PHOTO_DIR = "/tmp/photomaton"  # Dossier temporaire pour les photos
 IMAGE_WIDTH = 384              # Largeur en pixels (typique pour imprimante 58mm)
 # ---------------------
@@ -64,7 +64,7 @@ def prendre_photo() -> str:
     chemin = os.path.join(PHOTO_DIR, f"photo_{timestamp}.jpg")
 
     resultat = subprocess.run(
-        ["libcamera-still", "-o", chemin, "--nopreview", "-t", "1000"],
+        ["rpicam-still", "-o", chemin, "--nopreview", "-t", "1000"],
         capture_output=True,
         text=True
     )
