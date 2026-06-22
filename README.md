@@ -4,7 +4,7 @@ SnapLab est un photomaton open-source réalisé avec du matériel low-tech à de
 
 Ce projet a pour vocation de donner un socle technique, que ce soit côté logiciel ou matériel, pour ensuite permettre aux personnes qui le souhaitent de mettre en place le photomaton de la façon la plus adaptée à leur lieux.
 
-1. [Matériel](#materiel)
+1. [Matériel](#matériel)
 2. [Installation logicielle](#installation-logicielle)
 3. [Comment contribuer](#comment-contribuer)
 
