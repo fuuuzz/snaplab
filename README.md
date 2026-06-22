@@ -7,6 +7,7 @@ Ce projet a pour vocation de donner un socle technique, que ce soit côté logic
 1. [Matériel](#matériel)
 2. [Configuration logicielle](#configuration-logicielle)
 3. [Comment contribuer](#comment-contribuer)
+4. [Sources](#sources)
 
 # Matériel
 
@@ -60,6 +61,36 @@ Une fois le [Raspberry Pi Imager](https://www.raspberrypi.com/software/) lancé 
    ![](./documentation/photos/raspberry_setup/create_image.JPG)
    ![](./documentation/photos/raspberry_setup/writing_image.JPG)
 
-6.
+6. Une fois le processus terminé, éjecter la carte et micro SD, l'insérer dans le Raspberry Pi et mettre le Raspberry Pi sous tension. Lors du premier démarrage, la configuration se finalise, ce qui prend un peu de temps. Vous verrez quelques lignes de commandes s'exécuter, vous n'avez pas laisser faire et faire preuve d'un peu de patience.
+
+### Fonctionnement de la caméra
+
+Brancher la caméra dans le port prévu à cet effet.
+![](./documentation/photos/camera_setup/plug_camera.JPG)
+
+Pour s'assurer que la caméra fonctionne bien, ouvrir un terminal et exécuter la commande suivante:
+
+```
+rpicam-still -o test.jpg
+```
+
+Cette commande ordonne au Raspberry Pi de prendre une photo, et de la sauvegarder sous le nom `test.jpg`.
+
+![](./documentation/photos/camera_setup/command.JPG)
+_Exécution de la commande_
+
+![](./documentation/photos/camera_setup/picture.png)
+_La commande montre la vue de la caméra avant de prendre la photo_
+
+### Configuration de l'imprimante
 
 # Comment contribuer
+
+# Sources
+
+- [https://cdn-learn.adafruit.com/downloads/pdf/networked-thermal-printer-using-cups-and-raspberry-pi.pdf](https://cdn-learn.adafruit.com/downloads/pdf/networked-thermal-printer-using-cups-and-raspberry-pi.pdf)
+- [https://github.com/ryanlibs/T7-US-RS232-Thermal-Printer](https://github.com/ryanlibs/T7-US-RS232-Thermal-Printer)
+- [https://www.youtube.com/watch?v=tD3J8CzDVlw](https://www.youtube.com/watch?v=tD3J8CzDVlw)
+- [https://www.youtube.com/watch?v=J8LSlRTZ3_U](https://www.youtube.com/watch?v=J8LSlRTZ3_U)
+- [https://raspberrytips.com/install-printer-raspberry-pi/#cups-installation](https://raspberrytips.com/install-printer-raspberry-pi/#cups-installation)
+- [https://www.raspberrypi.com/documentation/computers/camera_software.html](https://www.raspberrypi.com/documentation/computers/camera_software.html)
