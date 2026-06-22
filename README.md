@@ -16,7 +16,7 @@ Ce projet a pour vocation de donner un socle technique, que ce soit côté logic
 ![](./documentation/photos/components/raspberry_pi.JPG)
 _Raspberry Pi avec son cable d'alimentation_
 
-### [Mini imprimante thermique à tickets](https://www.manomano.fr/p/imprimante-thermique-integree-58mm-modele-micro-materiel-abs-support-usbttl-serie-alimentation-5-9v-210876678?from=my_orders)
+### [Mini imprimante thermique à tickets de caisse](https://www.manomano.fr/p/imprimante-thermique-integree-58mm-modele-micro-materiel-abs-support-usbttl-serie-alimentation-5-9v-210876678?from=my_orders)
 
 ![](./documentation/photos/components/printer.JPG)
 _Imprimante thermique avec l'alimentation secteur 5V-9V (en noir), l'adaptateur (en rouge et noir), et le câble de USB de communication entre l'imprimante et le Raspberry_
