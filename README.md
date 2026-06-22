@@ -154,6 +154,14 @@ Pour faire fonctionner l'imprimante avec le Raspberry Pi, nous allons utiliser u
 
 ### 4. Lancement du script python
 
+Attention a bien mettre le nom de votre imprimante dans le script Python
+
+```python
+PRINTER_NAME = "NOM_IMPRIMANTE"
+```
+
+Lancer le script
+
 ```
 python3 scripts/main.py
 ```
