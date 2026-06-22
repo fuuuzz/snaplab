@@ -129,6 +129,26 @@ Pour faire fonctionner l'imprimante avec le Raspberry Pi, nous allons utiliser u
     sudo ./install
    ```
 
+   ```
+    sudo usermod -a -G lpadmin <nom_utilisateur>
+   ```
+
+6. Mise en place des paramètres d'impression
+   ![](./documentation/photos/printer_setup/printer_settings.png)
+   ![](./documentation/photos/printer_setup/add_printer.png)
+   ![](./documentation/photos/printer_setup/select_printer.png)
+   ![](./documentation/photos/printer_setup/zijiang.png)
+   ![](./documentation/photos/printer_setup/driver.png)
+   ![](./documentation/photos/printer_setup/printer_added.png)
+
+7. Test de l'impression d'une image
+
+   ```
+    lp -o fit-to-page test.jpg
+   ```
+
+   ![](./documentation/photos/printer_setup/print_image.gif)
+
 # Comment contribuer
 
 # Sources
