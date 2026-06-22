@@ -10,15 +10,34 @@ Ce projet a pour vocation de donner un socle technique, que ce soit côté logic
 
 # Matériel
 
-- [Raspberry Pi](https://www.raspberrypi.com/products/raspberry-pi-3-model-b/)
-- [Minit Imprimante thermique à tickets](https://www.manomano.fr/p/imprimante-thermique-integree-58mm-modele-micro-materiel-abs-support-usbttl-serie-alimentation-5-9v-210876678?from=my_orders)
-- [Caméra](https://www.raspberrypi.com/products/camera-module-v2/)
-- [TODO] => Bouton déclencheur
-- [TODO] => Led
+### [Raspberry Pi](https://www.raspberrypi.com/products/raspberry-pi-3-model-b/)
+
+![](./documentation/photos/raspberry_pi.JPG)
+_Raspberry Pi avec son cable d'alimentation_
+
+### [Mini imprimante thermique à tickets](https://www.manomano.fr/p/imprimante-thermique-integree-58mm-modele-micro-materiel-abs-support-usbttl-serie-alimentation-5-9v-210876678?from=my_orders)
+
+![](./documentation/photos/printer.JPG)
+_Imprimante thermique avec l'alimentation secteur 5V-9V (en noir), l'adaptateur (en rouge et noir), et le câble de USB de communication entre l'imprimante et le Raspberry_
+
+### [Caméra](https://www.raspberrypi.com/products/camera-module-v2/)
+
+![](./documentation/photos/camera.JPG)
+_Camera avec sa nappe CSI_
+
+### [TODO] => Bouton déclencheur
+
+### [TODO] => Led
+
+### Branchement
 
 ![](./documentation/schemas/schema.svg)
 _Schéma des branchements_
 
 # Installation logicielle
+
+## Mise en route du Raspberry Pi
+
+Pour configurer le Raspberry Pi, il faut utiliser [Raspberry Pi Imager](https://www.raspberrypi.com/software/) pour installer le système d'exploitation sur une carte micro SD.
 
 # Comment contribuer
