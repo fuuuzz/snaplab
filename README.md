@@ -37,10 +37,10 @@ _Schéma des branchements_
 
 # Configuration logicielle
 
-1. [Installation du système d'exploitation](#installation-du-système-d-exploitation)
-2. [Fonctionnement de la caméra](#fonctionnement-de-la-caméra)
-3. [Configuration de l'imprimante](#configuration-de-l-imprimante)
-4. [Lancement du script python](#lancement-du-script-python)
+1. [Installation du système d'exploitation](#1-installation-du-système-dexploitation)
+2. [Fonctionnement de la caméra](#2-fonctionnement-de-la-caméra)
+3. [Configuration de l'imprimante](#3-configuration-de-limprimante)
+4. [Lancement du script python](#4-lancement-du-script-python)
 
 ### 1. Installation du système d'exploitation
 
@@ -66,7 +66,7 @@ Une fois le [Raspberry Pi Imager](https://www.raspberrypi.com/software/) lancé 
 
 6. Une fois le processus terminé, éjecter la carte et micro SD, l'insérer dans le Raspberry Pi et mettre le Raspberry Pi sous tension. Lors du premier démarrage, la configuration se finalise, ce qui prend un peu de temps. Vous verrez quelques lignes de commandes s'exécuter, vous n'avez pas laisser faire et faire preuve d'un peu de patience.
 
-### Fonctionnement de la caméra
+### 2. Fonctionnement de la caméra
 
 Brancher la caméra dans le port prévu à cet effet.
 ![](./documentation/photos/camera_setup/plug_camera.JPG)
@@ -85,7 +85,7 @@ _Exécution de la commande_
 ![](./documentation/photos/camera_setup/picture.png)
 _La commande montre la vue de la caméra avant de prendre la photo_
 
-### Configuration de l'imprimante
+### 3. Configuration de l'imprimante
 
 Pour faire fonctionner l'imprimante avec le Raspberry Pi, nous allons utiliser un protocole spécifique : le `CUPS`.
 
@@ -152,7 +152,7 @@ Pour faire fonctionner l'imprimante avec le Raspberry Pi, nous allons utiliser u
 
    ![](./documentation/photos/printer_setup/print_image.gif)
 
-### Lancement du script python
+### 4. Lancement du script python
 
 ```
 python3 scripts/main.py
