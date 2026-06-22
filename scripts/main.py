@@ -15,7 +15,7 @@ import termios
 import tty
 
 # --- Configuration ---
-PRINTER_NAME = "ZJ-58"        # Nom de ton imprimante dans CUPS (vérifier avec: lpstat -p)
+PRINTER_NAME = "SnapLabPrinter"        # Nom de ton imprimante dans CUPS (vérifier avec: lpstat -p)
 PHOTO_DIR = "/tmp/photomaton"  # Dossier temporaire pour les photos
 IMAGE_WIDTH = 384              # Largeur en pixels (typique pour imprimante 58mm)
 # ---------------------

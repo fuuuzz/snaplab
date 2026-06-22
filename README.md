@@ -122,7 +122,7 @@ Pour faire fonctionner l'imprimante avec le Raspberry Pi, nous allons utiliser u
 
    ```
    sudo apt-get update
-   sudo apt-get install libcups2-dev libcupsimage2-dev git build-essential cups system-config-printer
+   sudo apt-get install libcups2-dev libcupsimage2-dev git build-essential cups system-config-printer imagemagick
    ```
 
    ```
